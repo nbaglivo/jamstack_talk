@@ -13,20 +13,29 @@ Jamstack site then chances are that you don't neeed this talk and you probably k
 @title[what]
 
 
-Unlike other known stacks like MEAN or LAMP, the Jamstack is not about specific technologies.
+Unlike other known stacks like MEAN or LAMP but an architecture
+
+Note:
+
+- Unlike other known stacks like MEAN or LAMP, the Jamstack is not about specific technologies but rather an architecture, a way to build software.
 
 ---
 
-@title[what]
+@title[what-2]
 
 The idea is prerender HTML on deploy-time and to distribute the resulting static web app but to enhance the static
 experience with the use of JavaScript, APIs, and Markup.
 
 Note:
 
-- Instead of rendering a web site dynamically in the browser, this approach makes use of an old idea. It suggests to prerender HTML on deploy-time and to distribute the resulting static web app – but without the static experience. To achieve this the JAMstack makes use of JavaScript, APIs, and Markup.
+- Instead of rendering a web site dynamically in the browser, this approach makes use of an old idea. It suggests to prerender HTML on deploy-time and to distribute the resulting static web app – but without the static experience.
+
+- What this essentially means that we would we generating static HTML and other assets. We won’t have a hosted server serving dynamic requests, so reduced attack surface. And static assets serving websites can be easily scaled using CDNs
+
+-  To achieve this the JAMstack makes use of JavaScript, APIs, and Markup.
 
 ---
+
 
 @title[javascript]
 
@@ -53,8 +62,6 @@ https://www.inovex.de/blog/wp-content/uploads/2019/08/jamstack.jpg
 
 ---
 @title[goals]
-
---- 
 
 The Jamstack aims to deliver
 
